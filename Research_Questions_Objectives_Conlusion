@@ -1,0 +1,42 @@
+Research Questions and Objectives
+
+Research Questions:
+
+1) How accurately does the BERT-based model classify sentiment across diverse textual inputs?
+
+
+2) What are the strengths and weaknesses of using BERT for sentiment analysis, especially in handling nuanced or ambiguous sentences?
+
+
+3) How well does the model generalize across different domains (e.g., social media, formal writing, product reviews)?
+
+
+4) How does BERT's tokenization process affect its ability to understand sentence structure and meaning?
+
+
+5) To what extent does the model rely on specific keywords rather than overall context when determining sentiment?
+
+
+Objectives:
+
+1) Evaluate the effectiveness of DistilBERT in sentiment classification.
+
+
+2) Analyze how tokenization and attention mechanisms impact sentiment prediction.
+
+
+3) Identify limitations, such as misclassifications due to sarcasm or complex phrasing.
+
+
+4) Explore potential biases in sentiment classification based on dataset composition.
+
+
+5) Investigate model adaptability to domain-specific sentiment classification.
+
+
+
+Conclusion and Insights
+Through this exploration, we analyzed BERT’s performance in sentiment analysis using a fine-tuned DistilBERT model. The model demonstrated high accuracy in classifying positive and negative sentiments, effectively capturing context in straightforward sentences. However, limitations were observed in cases where sentiment relied on sarcasm, implicit meanings, or domain-specific language.
+The study highlights BERT's strong contextual understanding but also its reliance on tokenized word embeddings, which may sometimes overlook deeper linguistic nuances. Future improvements could involve fine-tuning on domain-specific datasets or integrating external knowledge sources to enhance contextual understanding.
+In the broader AI landscape, this work reinforces the growing importance of pre-trained transformers in NLP applications. The findings suggest that while BERT excels at many tasks, further advancements in model interpretability, fairness, and adaptability are needed to create even more reliable AI-driven sentiment analysis systems.
+
